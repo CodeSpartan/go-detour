@@ -62,8 +62,8 @@ func (v Vec3) SetZ(z float32) {
 	v[2] = z
 }
 
-// Set sets the 3 components at once.
-func (v Vec3) Set(x, y, z float32) {
+// SetXYZ sets the 3 components at once.
+func (v Vec3) SetXYZ(x, y, z float32) {
 	v[0] = x
 	v[1] = y
 	v[2] = z
